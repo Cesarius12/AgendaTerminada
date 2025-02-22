@@ -25,7 +25,6 @@ public class Agenda implements Serializable {
             System.out.println(e.getMessage());
         }
     }
-
     public ArrayList<Contactos> cargarAgenda(String nombre) {
         ArrayList<Contactos> misContCargados = new ArrayList<>();
         try {
@@ -39,7 +38,6 @@ public class Agenda implements Serializable {
         }
         return misContCargados;
     }
-
     public void registrarContacto() {
         boolean val = true;
         System.out.println("Introduce el nombre del contacto que deseas agregar");
